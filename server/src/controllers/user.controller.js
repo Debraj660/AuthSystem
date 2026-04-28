@@ -1,7 +1,7 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { generateAccessToken, generateRefreshToken } from "../utils/token.utils.js";
 import {User} from "../models/user.models.js"
-import ApiError from "../utils/apiError.js";
+import ApiError from "../utils/ApiError.js";
 import bcrypt from "bcrypt";
 import { sendAuthResponse } from "../utils/sendAuthResponse.js";
 import ApiResponse from "../utils/ApiResponse.js";
